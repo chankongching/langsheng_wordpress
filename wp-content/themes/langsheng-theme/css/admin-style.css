@@ -1,0 +1,28 @@
+/*==========================================
+*** Custom Admin CSS
+==========================================*/
+
+/* Portfolio Type - Re-Order */
+#cpto.wrap > #cpt_info_box {
+    display: none;
+}
+
+/* ACF Right Box */
+.acf-column-2 > .wp-box {
+    display: none;
+}
+
+/* CPTUI Right Box */
+.wrap.cptui-new > .wdspromos {
+    display: none;
+}
+
+/* WP Logo (top left) */
+#wp-admin-bar-wp-logo {
+    display: none;
+}
+
+/* Footer left thank you */
+#footer-thankyou {
+    display: none;
+}

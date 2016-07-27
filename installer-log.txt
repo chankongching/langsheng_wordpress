@@ -1,0 +1,605 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 06:37:34
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.14
+PHP:		5.6.21 | SAPI: fpm-fcgi
+SERVER:		nginx/1.11.0
+DOC ROOT:	/var/www/html
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20160726_langsheng_5797eb477d0cd3527160726225919
+REQUEST URL:	http://_/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20160726_langsheng_5797eb477d0cd3527160726225919_archive.zip
+SIZE:	30.53MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4192
+    [filename] => /var/www/html/20160726_langsheng_5797eb477d0cd3527160726225919_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/var/www/html/installer-data.sql'
+- WP-CONFIG: '/var/www/html/wp-config.php'
+
+ARCHIVE RUNTIME: 0.8760 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.12 -- Build Server: 5.5.50
+TIMEOUT:	5000
+MAXPACK:	4194304
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'Invalid default value for 'comment_date'' - [sql=
+CREATE TABLE `langsheng_comments` (
+  `comment_ID` bigint(20) unsigned NOT...]
+**ERROR** database error write 'Invalid default value for 'link_updated'' - [sql=
+CREATE TABLE `langsheng_links` (
+  `link_id` bigint(20) unsigned NOT NULL ...]
+**ERROR** database error write 'Invalid default value for 'post_date'' - [sql=
+CREATE TABLE `langsheng_posts` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_...]
+**ERROR** database error write 'Invalid default value for 'user_registered'' - [sql=
+CREATE TABLE `langsheng_users` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_...]
+**ERROR** database error write 'Invalid default value for 'comment_date'' - [sql=
+CREATE TABLE `wpls_comments` (
+  `comment_ID` bigint(20) unsigned NOT NULL...]
+**ERROR** database error write 'Invalid default value for 'created'' - [sql=
+CREATE TABLE `wpls_duplicator_packages` (
+  `id` bigint(20) unsigned NOT N...]
+**ERROR** database error write 'Invalid default value for 'link_updated'' - [sql=
+CREATE TABLE `wpls_links` (
+  `link_id` bigint(20) unsigned NOT NULL AUTO_...]
+**ERROR** database error write 'Invalid default value for 'post_date'' - [sql=
+CREATE TABLE `wpls_posts` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCRE...]
+**ERROR** database error write 'Invalid default value for 'user_registered'' - [sql=
+CREATE TABLE `wpls_users` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCRE...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=
+/* INSERT TABLE DATA: langsheng_posts */
+INSERT INTO `langsheng_posts` VAL...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("8", "1", "2016-03-18 17:09:08", "2016...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("9", "1", "2016-03-18 17:22:01", "2016...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("10", "1", "2016-03-18 17:22:01", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("11", "1", "2016-03-18 17:22:01", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("12", "1", "2016-03-18 17:27:56", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("13", "1", "2016-03-18 17:27:56", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("14", "1", "2016-03-18 17:33:14", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("15", "1", "2016-03-18 17:33:27", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("16", "1", "2016-03-18 17:36:39", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("17", "1", "2016-03-18 17:36:39", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("18", "1", "2016-03-18 17:53:59", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("20", "1", "2016-03-18 18:05:50", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("21", "1", "2016-03-18 18:08:25", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("22", "1", "2016-03-18 18:12:52", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("23", "1", "2016-03-18 18:12:47", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("25", "1", "2016-03-18 18:34:56", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("26", "1", "2016-03-18 18:34:56", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("27", "1", "2016-03-18 18:34:56", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("28", "1", "2016-03-18 18:35:59", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("29", "1", "2016-03-18 18:36:11", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("30", "1", "2016-03-18 18:36:23", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("31", "1", "2016-03-18 18:42:22", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("34", "1", "2016-03-18 19:21:20", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("35", "1", "2016-03-18 19:21:20", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("36", "1", "2016-03-18 19:22:36", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("37", "1", "2016-03-18 19:22:44", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("38", "1", "2016-03-18 19:24:26", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("39", "1", "2016-03-18 19:24:21", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("40", "1", "2016-03-18 19:24:21", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("41", "1", "2016-03-18 19:24:22", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("42", "1", "2016-03-18 19:25:04", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("44", "1", "2016-03-18 20:09:10", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("45", "1", "2016-03-18 20:10:07", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("47", "1", "2016-03-18 20:10:52", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("49", "1", "2016-03-18 20:36:24", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("50", "1", "2016-03-18 20:35:01", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("51", "1", "2016-03-21 13:48:39", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("54", "1", "2016-03-21 14:29:30", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("55", "1", "2016-03-21 14:29:30", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("56", "1", "2016-03-21 14:44:23", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("57", "1", "2016-03-21 15:24:23", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("58", "1", "2016-03-21 15:25:09", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("59", "1", "2016-03-21 15:37:53", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("60", "1", "2016-03-21 18:28:38", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("61", "1", "2016-03-21 18:30:38", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("62", "1", "2016-03-21 18:31:02", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("63", "1", "2016-03-21 18:31:06", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("64", "1", "2016-03-21 18:31:19", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("65", "1", "2016-03-21 18:31:39", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("66", "1", "2016-03-21 18:31:53", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("67", "1", "2016-03-21 18:43:02", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("68", "1", "2016-03-21 18:43:02", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("69", "1", "2016-03-21 18:44:43", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("70", "1", "2016-03-21 19:05:40", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("71", "1", "2016-03-21 19:05:34", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("72", "1", "2016-03-21 19:21:46", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("73", "1", "2016-03-21 19:20:40", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("74", "1", "2016-03-21 19:23:43", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("75", "1", "2016-03-21 19:23:12", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("76", "1", "2016-03-21 19:34:39", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("77", "1", "2016-03-21 19:33:09", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("78", "1", "2016-03-21 19:55:47", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("79", "1", "2016-03-21 19:55:47", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("80", "1", "2016-03-21 19:56:07", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("81", "1", "2016-03-21 20:12:33", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("82", "1", "2016-03-21 20:12:33", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("83", "1", "2016-03-21 20:46:30", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("84", "1", "2016-03-21 20:54:21", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("85", "1", "2016-03-21 20:59:39", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("86", "1", "2016-03-21 21:00:10", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("87", "1", "2016-03-21 21:00:46", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("88", "1", "2016-03-21 21:01:01", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("89", "1", "2016-03-21 21:01:12", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("90", "1", "2016-03-21 21:21:49", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("91", "1", "2016-03-21 21:21:49", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("92", "1", "2016-03-21 21:22:48", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("93", "1", "2016-03-21 21:22:48", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("94", "1", "2016-03-21 21:23:13", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("95", "1", "2016-03-21 21:23:32", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("96", "1", "2016-03-21 21:41:51", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("97", "1", "2016-03-23 20:15:58", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("98", "1", "2016-03-23 20:16:40", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("99", "1", "2016-03-23 20:17:23", "201...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("100", "1", "2016-03-23 20:17:55", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("101", "1", "2016-03-23 20:18:35", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("102", "1", "2016-03-23 20:19:14", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("103", "1", "2016-03-23 20:23:49", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("104", "1", "2016-03-23 20:23:49", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("105", "1", "2016-03-23 20:23:49", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("106", "1", "2016-03-23 20:35:26", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("114", "1", "2016-03-28 07:29:45", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("115", "1", "2016-03-28 07:30:26", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("116", "1", "2016-03-28 07:44:27", "20...]
+**ERROR** database error write 'Table 'langsheng.langsheng_posts' doesn't exist' - [sql=INSERT INTO `langsheng_posts` VALUES("117", "1", "2016-03-28 07:46:41", "20...]
+**ERROR** database error write 'Incorrect datetime value: '0000-00-00 00:00:00' for column 'last_access' at row 1' - [sql=INSERT INTO `langsheng_redirection_items` VALUES("2", "/langsheng/en/portfo...]
+**ERROR** database error write 'Incorrect datetime value: '0000-00-00 00:00:00' for column 'last_access' at row 1' - [sql=INSERT INTO `langsheng_redirection_items` VALUES("3", "/langsheng/投资组...]
+**ERROR** database error write 'Incorrect datetime value: '0000-00-00 00:00:00' for column 'last_access' at row 1' - [sql=INSERT INTO `langsheng_redirection_items` VALUES("4", "/langsheng/关于我...]
+**ERROR** database error write 'Table 'langsheng.langsheng_users' doesn't exist' - [sql=
+/* INSERT TABLE DATA: langsheng_users */
+INSERT INTO `langsheng_users` VAL...]
+**ERROR** database error write 'Table 'langsheng.wpls_duplicator_packages' doesn't exist' - [sql=
+/* INSERT TABLE DATA: wpls_duplicator_packages */
+INSERT INTO `wpls_duplic...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=
+/* INSERT TABLE DATA: wpls_posts */
+INSERT INTO `wpls_posts` VALUES("14", ...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("15", "1", "2016-04-17 18:12:46", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("16", "1", "2016-04-17 18:16:25", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("17", "1", "2016-04-17 18:28:03", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("18", "1", "2016-04-17 18:26:34", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("19", "1", "2016-04-17 18:31:21", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("20", "1", "2016-04-17 18:38:00", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("244", "1", "2016-04-25 09:53:25", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("4", "1", "2016-04-17 11:26:57", "2016-04-1...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("6", "1", "2016-04-17 15:18:36", "2016-04-1...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("7", "1", "2016-04-17 15:18:36", "2016-04-1...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("8", "1", "2016-04-17 16:17:54", "2016-04-1...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("226", "1", "2016-04-21 16:45:44", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("21", "1", "2016-04-17 18:42:54", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("243", "1", "2016-04-25 09:50:42", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("28", "1", "2016-04-17 15:18:36", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("29", "1", "2016-04-17 19:32:57", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("30", "1", "2016-04-17 19:42:16", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("223", "1", "2016-04-21 16:44:17", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("26", "1", "2016-04-17 18:12:46", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("225", "1", "2016-04-21 16:45:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("27", "1", "2016-04-17 19:18:05", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("31", "1", "2016-04-17 19:40:50", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("32", "1", "2016-04-17 19:42:16", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("33", "1", "2016-04-17 19:42:16", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("34", "1", "2016-04-17 19:56:30", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("35", "1", "2016-04-18 10:33:33", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("207", "1", "2016-04-21 04:40:32", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("37", "1", "2016-04-18 10:33:33", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("38", "1", "2016-04-18 15:06:16", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("40", "1", "2016-04-18 15:10:40", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("41", "1", "2016-04-18 15:11:25", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("42", "1", "2016-04-18 15:12:14", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("43", "1", "2016-04-18 15:13:00", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("51", "1", "2016-04-18 15:13:00", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("46", "1", "2016-04-18 15:14:28", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("47", "1", "2016-04-18 15:28:45", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("153", "1", "2016-04-19 21:28:37", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("154", "1", "2016-04-19 21:28:37", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("50", "1", "2016-04-18 15:06:16", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("52", "1", "2016-04-18 15:12:14", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("53", "1", "2016-04-18 16:06:23", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("329", "1", "2016-04-18 16:06:23", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("55", "1", "2016-04-18 16:08:21", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("56", "1", "2016-04-18 16:09:55", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("57", "1", "2016-04-18 16:11:32", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("60", "1", "2016-04-18 10:33:33", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("62", "1", "2016-04-18 16:34:02", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("61", "1", "2016-04-18 16:32:45", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("63", "1", "2016-04-18 16:45:57", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("66", "1", "2016-04-18 16:45:57", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("68", "1", "2016-04-18 18:24:11", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("69", "1", "2016-04-18 18:24:11", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("70", "1", "2016-04-18 18:27:09", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("71", "1", "2016-04-18 18:27:09", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("72", "1", "2016-04-18 18:30:07", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("73", "1", "2016-04-18 18:29:35", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("74", "1", "2016-04-18 18:35:57", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("75", "1", "2016-04-18 18:35:10", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("76", "1", "2016-04-18 18:37:30", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("77", "1", "2016-04-18 18:37:18", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("78", "1", "2016-04-18 18:38:36", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("79", "1", "2016-04-18 18:38:13", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("80", "1", "2016-04-18 18:39:22", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("84", "1", "2016-04-18 18:40:07", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("82", "1", "2016-04-18 18:40:07", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("250", "2", "2016-06-16 03:21:08", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("171", "1", "2016-06-20 09:21:17", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("85", "1", "2016-04-18 18:39:22", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("174", "1", "2016-06-20 08:46:08", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("86", "1", "2016-04-18 18:38:36", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("175", "1", "2016-06-20 08:54:22", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("87", "1", "2016-04-18 18:37:30", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("180", "1", "2016-04-20 07:06:24", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("88", "1", "2016-04-18 18:35:57", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("179", "1", "2016-06-20 08:42:16", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("89", "1", "2016-04-18 18:30:07", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("178", "1", "2016-04-20 06:18:57", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("90", "1", "2016-04-18 18:47:13", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("91", "1", "2016-04-18 18:47:13", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("92", "1", "2016-04-18 18:47:13", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("93", "1", "2016-04-18 18:48:09", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("97", "1", "2016-04-20 06:24:19", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("96", "1", "2016-06-20 09:14:39", "2016-06-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("98", "1", "2016-04-18 19:26:32", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("99", "1", "2016-04-18 19:26:08", "2016-04-...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("100", "1", "2016-04-18 19:26:22", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("101", "1", "2016-04-18 19:26:32", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("102", "1", "2016-04-18 19:26:32", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("103", "1", "2016-04-18 19:27:45", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("105", "1", "2016-04-18 19:33:50", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("110", "1", "2016-04-18 19:33:50", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("258", "2", "2016-06-16 03:41:57", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("109", "1", "2016-04-18 22:09:49", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("112", "1", "2016-04-18 22:40:08", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("113", "1", "2016-04-18 22:41:36", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("114", "1", "2016-04-18 22:43:08", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("115", "1", "2016-04-18 22:43:08", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("116", "1", "2016-04-18 22:40:08", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("117", "1", "2016-04-18 22:09:49", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("118", "1", "2016-04-18 22:41:36", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("119", "1", "2016-04-18 23:55:31", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("120", "1", "2016-04-19 00:01:58", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("121", "1", "2016-04-19 00:01:58", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("123", "1", "2016-04-19 00:19:20", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("122", "1", "2016-04-19 00:15:49", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("124", "1", "2016-04-19 00:01:58", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("125", "1", "2016-04-21 03:26:12", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("126", "1", "2016-04-19 00:22:53", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("127", "1", "2016-04-19 00:23:11", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("128", "1", "2016-04-19 12:14:28", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("129", "1", "2016-04-17 18:28:03", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("130", "1", "2016-04-19 14:14:33", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("151", "1", "2016-04-19 17:15:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("312", "1", "2016-07-13 05:42:55", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("149", "1", "2016-04-19 17:15:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("148", "1", "2016-04-19 17:15:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("147", "1", "2016-04-19 17:15:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("146", "1", "2016-04-19 17:15:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("150", "1", "2016-04-19 17:15:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("139", "1", "2016-04-19 16:37:47", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("140", "1", "2016-04-19 17:07:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("141", "1", "2016-04-19 17:07:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("142", "1", "2016-04-19 17:07:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("143", "1", "2016-04-19 17:07:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("144", "1", "2016-04-19 17:07:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("145", "1", "2016-04-19 17:07:16", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("152", "1", "2016-04-19 17:15:44", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("155", "1", "2016-04-19 21:28:37", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("156", "1", "2016-04-19 21:39:31", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("157", "1", "2016-04-19 21:43:29", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("158", "1", "2016-04-19 21:43:29", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("159", "1", "2016-04-19 22:04:02", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("160", "1", "2016-04-19 22:05:10", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("168", "1", "2016-04-20 04:43:34", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("165", "1", "2016-04-20 03:35:28", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("169", "1", "2016-04-20 05:12:17", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("170", "1", "2016-04-20 05:13:26", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("172", "1", "2016-06-20 09:05:38", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("173", "1", "2016-04-20 05:31:52", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("176", "1", "2016-04-20 06:14:47", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("177", "1", "2016-06-20 08:30:29", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("181", "1", "2016-04-20 07:32:19", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("182", "1", "2016-04-20 07:21:22", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("183", "1", "2016-04-20 07:21:25", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("184", "1", "2016-04-20 07:25:00", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("185", "1", "2016-04-20 07:34:20", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("186", "1", "2016-04-20 08:48:29", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("187", "1", "2016-04-20 08:48:17", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("188", "1", "2016-04-20 08:50:19", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("189", "1", "2016-04-20 08:51:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("190", "1", "2016-04-20 08:51:28", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("311", "1", "2016-07-05 08:06:19", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("218", "1", "2016-04-21 11:03:48", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("219", "1", "2016-04-21 11:04:23", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("193", "1", "2016-04-20 08:58:11", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("194", "1", "2016-04-20 08:59:46", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("260", "2", "2016-06-16 04:05:28", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("266", "1", "2016-06-20 08:18:16", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("196", "1", "2016-04-21 03:11:01", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("197", "1", "2016-04-21 03:11:29", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("198", "1", "2016-04-21 03:15:48", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("199", "1", "2016-04-21 03:33:42", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("200", "1", "2016-04-21 03:34:33", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("201", "1", "2016-04-21 03:35:24", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("202", "1", "2016-04-21 03:40:30", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("206", "1", "2016-04-21 04:20:07", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("208", "1", "2016-04-21 04:40:57", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("340", "1", "2016-07-17 15:51:45", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("341", "1", "2016-07-17 15:51:33", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("210", "1", "2016-04-21 06:02:26", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("261", "2", "2016-06-16 04:05:28", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("257", "2", "2016-06-16 03:47:31", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("214", "1", "2016-04-20 08:51:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("215", "1", "2016-04-20 08:59:46", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("220", "1", "2016-04-21 11:05:49", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("221", "1", "2016-04-21 11:31:06", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("222", "1", "2016-04-17 18:16:25", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("224", "1", "2016-04-21 16:44:58", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("230", "1", "2016-04-22 02:10:24", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("267", "1", "2016-06-20 08:18:37", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("232", "1", "2016-04-22 02:13:44", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("236", "1", "2016-04-22 02:28:03", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("237", "1", "2016-04-22 02:29:04", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("262", "1", "2016-06-16 10:26:20", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("268", "1", "2016-06-20 08:21:26", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("239", "1", "2016-04-25 09:58:43", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("240", "1", "2016-04-22 02:10:24", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("241", "1", "2016-04-22 02:43:26", "2016-04...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("242", "1", "2016-07-21 07:34:07", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("265", "1", "2016-06-20 08:17:04", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("259", "2", "2016-06-16 03:47:31", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("263", "1", "2016-06-16 10:26:20", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("269", "1", "2016-06-20 08:22:47", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("270", "1", "2016-06-20 08:23:01", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("272", "1", "2016-06-20 09:26:05", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("314", "1", "2016-07-05 08:20:16", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("318", "1", "2016-07-06 03:54:48", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("300", "1", "2016-06-21 03:33:23", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("275", "1", "2016-06-20 10:36:00", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("276", "1", "2016-06-20 10:37:35", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("319", "1", "2016-07-06 06:56:34", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("278", "1", "2016-06-20 10:41:05", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("320", "1", "2016-07-06 06:59:49", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("321", "1", "2016-07-12 10:34:51", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("322", "1", "2016-07-12 08:34:52", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("281", "1", "2016-06-20 10:53:40", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("282", "1", "2016-06-20 10:52:48", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("283", "1", "2016-06-20 10:53:40", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("285", "1", "2016-06-21 02:52:03", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("286", "1", "2016-06-21 02:51:43", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("287", "1", "2016-06-21 02:52:03", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("289", "1", "2016-06-21 02:59:29", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("290", "1", "2016-06-21 02:59:13", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("291", "1", "2016-06-21 02:59:29", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("292", "1", "2016-06-21 03:02:03", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("293", "1", "2016-06-21 03:01:49", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("294", "1", "2016-06-21 03:02:03", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("295", "1", "2016-06-21 03:09:12", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("296", "1", "2016-06-21 03:08:50", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("297", "1", "2016-06-21 03:09:12", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("298", "1", "2016-06-21 03:22:19", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("299", "1", "2016-06-21 03:22:36", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("301", "1", "2016-06-21 03:33:23", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("315", "1", "2016-07-06 03:08:02", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("316", "1", "2016-07-05 10:03:23", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("317", "1", "2016-07-06 03:26:02", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("308", "1", "2016-06-21 03:52:22", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("309", "1", "2016-06-21 03:52:22", "2016-06...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("313", "1", "2016-07-05 08:08:26", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("323", "1", "2016-07-12 10:31:48", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("324", "1", "2016-07-12 10:32:02", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("325", "1", "2016-07-12 10:35:57", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("326", "1", "2016-07-12 10:36:52", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("327", "1", "2016-07-12 10:37:58", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("330", "1", "2016-07-13 05:43:07", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("332", "1", "2016-07-13 05:44:32", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("331", "1", "2016-07-13 05:43:49", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("333", "1", "2016-07-13 05:45:08", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("366", "1", "2016-07-22 04:49:11", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("335", "1", "2016-07-14 07:28:37", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("336", "1", "2016-07-14 08:03:00", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("337", "1", "2016-07-14 10:57:52", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("338", "1", "2016-07-14 10:56:38", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("339", "1", "2016-07-14 10:57:52", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("365", "1", "2016-07-20 07:20:01", "0000-00...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("342", "1", "2016-07-17 15:51:45", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("343", "1", "2016-07-17 15:51:45", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("344", "1", "2016-07-17 15:55:10", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("345", "1", "2016-07-17 16:02:22", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("346", "1", "2016-07-17 16:01:31", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("347", "1", "2016-07-17 16:02:22", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("348", "1", "2016-07-17 17:25:51", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("349", "1", "2016-07-17 17:25:51", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("350", "1", "2016-07-17 17:25:51", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("351", "1", "2016-07-17 17:29:30", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("352", "1", "2016-07-17 17:38:36", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("355", "1", "2016-07-17 17:39:59", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("354", "1", "2016-07-17 17:39:06", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("356", "1", "2016-07-17 17:40:34", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("357", "1", "2016-07-17 19:19:22", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("358", "1", "2016-07-17 19:19:33", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("359", "1", "2016-07-17 19:19:41", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("360", "1", "2016-07-17 19:19:58", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("361", "1", "2016-07-17 19:20:05", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("362", "1", "2016-07-17 19:20:19", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("363", "1", "2016-07-17 19:20:31", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("364", "1", "2016-07-17 19:20:34", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("367", "1", "2016-07-22 04:49:54", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_posts' doesn't exist' - [sql=INSERT INTO `wpls_posts` VALUES("368", "1", "2016-07-22 04:50:55", "2016-07...]
+**ERROR** database error write 'Table 'langsheng.wpls_users' doesn't exist' - [sql=
+/* INSERT TABLE DATA: wpls_users */
+INSERT INTO `wpls_users` VALUES("1", "...]
+**ERROR** database error write 'Table 'langsheng.wpls_users' doesn't exist' - [sql=INSERT INTO `wpls_users` VALUES("2", "Lillian", "$P$B2rzPNUSNyWSuDVwqiR50kK...]
+**ERROR** database error write 'Table 'langsheng.wpls_users' doesn't exist' - [sql=INSERT INTO `wpls_users` VALUES("3", "Alistair", "$P$BXPaTPZpzIS1l4H/jpTZvl...]
+ERRORS FOUND:	382
+DROP TABLE:	
+QUERIES RAN:	7382
+
+langsheng_commentmeta: (0)
+langsheng_options: (194)
+langsheng_postmeta: (255)
+langsheng_redirection_404: (3)
+langsheng_redirection_groups: (2)
+langsheng_redirection_items: (1)
+langsheng_redirection_logs: (0)
+langsheng_term_relationships: (12)
+langsheng_term_taxonomy: (4)
+langsheng_termmeta: (0)
+langsheng_terms: (4)
+langsheng_usermeta: (23)
+wpls_commentmeta: (0)
+wpls_icl_content_status: (0)
+wpls_icl_core_status: (0)
+wpls_icl_flags: (63)
+wpls_icl_languages: (63)
+wpls_icl_languages_translations: (3969)
+wpls_icl_locale_map: (2)
+wpls_icl_message_status: (0)
+wpls_icl_node: (0)
+wpls_icl_reminders: (0)
+wpls_icl_string_packages: (0)
+wpls_icl_string_positions: (0)
+wpls_icl_string_status: (0)
+wpls_icl_string_translations: (2)
+wpls_icl_strings: (37)
+wpls_icl_translate: (452)
+wpls_icl_translate_job: (49)
+wpls_icl_translation_batches: (12)
+wpls_icl_translation_status: (51)
+wpls_icl_translations: (137)
+wpls_options: (203)
+wpls_postmeta: (1682)
+wpls_term_relationships: (28)
+wpls_term_taxonomy: (4)
+wpls_termmeta: (0)
+wpls_terms: (4)
+wpls_usermeta: (85)
+Removed '32' cache/transient rows
+
+SECTION RUNTIME: 2.9201 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 06:37:38 - TOTAL RUNTIME: 3.8183 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 06:38:21
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+langsheng_commentmeta^ (0)
+langsheng_options~ (194)
+langsheng_postmeta~ (255)
+langsheng_redirection_404~ (3)
+langsheng_redirection_groups~ (2)
+langsheng_redirection_items~ (1)
+langsheng_redirection_logs^ (0)
+langsheng_term_relationships~ (12)
+langsheng_term_taxonomy~ (4)
+langsheng_termmeta^ (0)
+langsheng_terms~ (4)
+langsheng_usermeta~ (23)
+wpls_commentmeta^ (0)
+wpls_icl_content_status^ (0)
+wpls_icl_core_status^ (0)
+wpls_icl_flags~ (63)
+wpls_icl_languages~ (63)
+wpls_icl_languages_translations~ (3969)
+wpls_icl_locale_map~ (2)
+wpls_icl_message_status^ (0)
+wpls_icl_node^ (0)
+wpls_icl_reminders^ (0)
+wpls_icl_string_packages^ (0)
+wpls_icl_string_positions^ (0)
+wpls_icl_string_status^ (0)
+wpls_icl_string_translations~ (2)
+wpls_icl_strings~ (37)
+wpls_icl_translate~ (452)
+wpls_icl_translate_job~ (49)
+wpls_icl_translation_batches~ (12)
+wpls_icl_translation_status~ (51)
+wpls_icl_translations~ (137)
+wpls_options~ (171)
+wpls_postmeta~ (1682)
+wpls_term_relationships~ (28)
+wpls_term_taxonomy~ (4)
+wpls_termmeta^ (0)
+wpls_terms~ (4)
+wpls_usermeta~ (85)
+--------------------------------------
+Search1:	'http://cnlsi.icodevision.com' 
+Change1:	'http://test.cnlsi.com:8888' 
+Search2:	'/home/icodevis/public_html/cnlsi' 
+Change2:	'/var/www/html' 
+Search3:	'http:\/\/cnlsi.icodevision.com' 
+Change3:	'http:\/\/test.cnlsi.com:8888' 
+Search4:	'\/home\/icodevis\/public_html\/cnlsi' 
+Change4:	'\/var\/www\/html' 
+Search5:	'%2Fhome%2Ficodevis%2Fpublic_html%2Fcnlsi%2F' 
+Change5:	'%2Fvar%2Fwww%2Fhtml%2F' 
+Search6:	'http%3A%2F%2Fcnlsi.icodevision.com' 
+Change6:	'http%3A%2F%2Ftest.cnlsi.com%3A8888' 
+Search7:	'\home\icodevis\public_html\cnlsi' 
+Change7:	'/var/www/html' 
+SCANNED:	Tables:39 	|	 Rows:7309 	|	 Cells:33252 
+UPDATED:	Tables:1 	|	 Rows:56 	|	 Cells:56 
+ERRORS:		0 
+RUNTIME:	0.243800 sec
+
+********************************************************************************
+START FINAL CLEANUP: 06:38:21
+********************************************************************************
+UPDATE `wpls_blogs` SET domain = 'test.cnlsi.com' WHERE domain = 'cnlsi.icodevision.com'
+
+--------------------------------------
+NOTICES
+--------------------------------------
+WP-CONFIG NOTICE: The wp-config.php has one or more of the following values set [WP_CONTENT_DIR, WP_CONTENT_URL, WPCACHEHOME, COOKIE_DOMAIN, WP_SITEURL, WP_HOME, WP_TEMP_DIR].  Please validate these values are correct by opening the file and checking the values.
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 06:38:21 - TOTAL RUNTIME: 0.2536 sec.
+********************************************************************************
